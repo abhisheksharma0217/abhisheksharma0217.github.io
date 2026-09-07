@@ -46,7 +46,7 @@ To inspect a local copy, open `docs/index.html` in a browser. The site uses rela
 
 The profile reflects September 2026: PhD research is complete, with submission and defense pending. The October 2026 appointment with Prof. Oliver Amft is upcoming. Keep those statements current as milestones are completed.
 
-The on-device processing project is ongoing and is distinct from the published journal evidence. This repository contains the portfolio website; project firmware, analysis code, datasets, and unpublished manuscripts are not included. Link the ESP32 handover repository after it has been prepared and published, retaining contributor attribution and reproducible examples.
+The on-device processing project is ongoing and is distinct from the published journal evidence. Firmware, recorded example data, analysis scripts, and technical documentation are available in the [ESP32 sensing pipeline repository](https://github.com/abhisheksharma0217/esp32-sensing-pipeline). That repository records the implementation qualifications, contributor attribution, benchmark scope, and licensing status. This repository contains the portfolio website.
 
 ## Your own domain
 
