@@ -6,15 +6,9 @@ The website implementation is open source under the [MIT License](LICENSE). Pers
 
 ## Publish with GitHub Pages
 
-This package is ready for GitHub Pages. Hosting requires no application server, paid plan, or build service. Python is only needed when regenerating the page content locally.
+This package is ready for GitHub Pages. Hosting requires no application server, or build service. Python is only needed when regenerating the page content locally.
 
-1. Sign in to the GitHub account that should own the portfolio. Create a **public** repository named `YOUR-USERNAME.github.io`, replacing `YOUR-USERNAME` with that account's exact username. For example, the account `octocat` uses `octocat.github.io`. Leave the README, license, and .gitignore initialization options off; this package supplies them. If that repository already exists, use it and integrate these files without overwriting unrelated work.
-2. Unzip this package. Upload the **contents inside** `abhishek-portfolio-github/` into the repository, preserving the folders. In an empty repository, use **uploading an existing file**; otherwise use **Add file → Upload files**. Commit the files to `main`. The repository should contain `docs/index.html` directly, not `abhishek-portfolio-github/docs/index.html`. Upload the extracted files, not the ZIP itself.
-3. Confirm that `docs/.nojekyll` is present. If your file picker omitted it, use **Add file → Create new file**, enter `docs/.nojekyll`, and commit an empty file. It tells GitHub to serve the prepared website without Jekyll processing.
-4. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select **main** and **/docs**, then **Save**. If you used a differently named branch, select that branch instead.
-5. Wait for the deployment to finish. The **Pages** settings show the live address; the **Actions** tab shows deployment progress and any errors. For a user repository named as above, the address is `https://YOUR-USERNAME.github.io/`.
-
-After this setup, commits that change the published files in `docs/` update the website automatically. Add the live address to the repository's **About → Website** field and to your LinkedIn profile.
+commits that change the published files in `docs/` update the website automatically. Add the live address to the repository's **About → Website** field and to your LinkedIn profile.
 
 Official instructions: [Create a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) and [configure the publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
@@ -44,14 +38,8 @@ To inspect a local copy, open `docs/index.html` in a browser. The site uses rela
 
 ## Content status
 
-The profile reflects September 2026: PhD research is complete, with submission and defense pending. The October 2026 appointment with Prof. Oliver Amft is upcoming. Keep those statements current as milestones are completed.
-
-The on-device processing project is ongoing and is distinct from the published journal evidence. Firmware, recorded example data, analysis scripts, and technical documentation are available in the [ESP32 sensing pipeline repository](https://github.com/abhisheksharma0217/esp32-sensing-pipeline). That repository records the implementation qualifications, contributor attribution, benchmark scope, and licensing status. This repository contains the portfolio website.
-
-## Your own domain
-
-The free GitHub address is sufficient for launch. A domain you own can be connected later through the repository's Pages settings. See [GitHub's custom-domain guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages). No domain or GitHub username is hardcoded into this website.
+The on-device processing project is ongoing and is distinct from the published work. Firmware, recorded example data, analysis scripts, and technical documentation are available in the [ESP32 sensing pipeline repository](https://github.com/abhisheksharma0217/esp32-sensing-pipeline). That repository records the implementation qualifications, contributor attribution, benchmark scope, and licensing status. This repository contains the portfolio website.
 
 ## Reusing the design
 
-Keep the MIT copyright and license notice when reusing the website implementation. Replace the personal identity, biography, contact details, and project claims with your own. Follow the separate terms for the research image and other credited material in `THIRD_PARTY.md`.
+Refer to the MIT copyright and license notice when reusing the website implementation. Follow the separate terms for the research image and other credited material in `THIRD_PARTY.md`.
